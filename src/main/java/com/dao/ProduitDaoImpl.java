@@ -129,5 +129,8 @@ Connection connection= ConnectionS.getConnection();
 		
 		
 	}
+	public void inite() {
+		System.out.println("Initialisation .......");
+	}
 
 }

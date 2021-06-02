@@ -14,4 +14,5 @@ public interface IProduitDao {
 	public Produit getProduit(Long id);
 	public Produit update(Produit p);
 	public void deleteProduit(Long id);
+	
 }

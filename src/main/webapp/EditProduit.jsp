@@ -18,7 +18,8 @@
 				<form action="UpdateProduit.php" method="post">
 				<div class="form-group">
 						<label class="control-label">ID</label>
-						<input type="text" name="id" value="${produit.id}" class="form-control"/>
+						<input type="hidden" name="id" value="${produit.id}" class="form-control"/>
+						<label>${produit.id}</label>
 						<span></span>
 					</div>
 					<div class="form-group">
